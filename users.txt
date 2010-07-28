@@ -1,0 +1,3 @@
+# user-name mapping between system and shotgun
+johnSmith=smith-j
+marcoRomeo=romeom

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>530</width>
+    <height>324</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>69</x>
+     <y>41</y>
+     <width>389</width>
+     <height>276</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="projectLabel">
+          <property name="text">
+           <string>Select project</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="linkLabel">
+          <property name="text">
+           <string>Link version to</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="disciplineLabel">
+          <property name="text">
+           <string>Discipline</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="taskLabel">
+          <property name="text">
+           <string>Task</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="descriptionLabel">
+          <property name="text">
+           <string>Description</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="tagsLabel">
+          <property name="text">
+           <string>Tags (separated by ,)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QComboBox" name="projectList"/>
+        </item>
+        <item>
+         <widget class="QComboBox" name="linkList"/>
+ 		</item>
+        <item>
+         <widget class="QComboBox" name="disciplineList"/>
+        </item>
+        <item>
+         <widget class="QComboBox" name="taskList">
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="descriptionText"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="tagsText">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QToolButton" name="cancelButton">
+        <property name="text">
+         <string>Cancel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>198</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QToolButton" name="publishButton">
+        <property name="text">
+         <string>Publish</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
