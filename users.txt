@@ -1,0 +1,3 @@
+# user-name mapping between system and shotgun
+sys_username1=sg_username1
+sys_username2=sg_username2
