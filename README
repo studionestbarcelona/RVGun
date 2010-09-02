@@ -1,6 +1,12 @@
 RVGun is a tool for Tweak Software's RV that allows users to upload media from RV to Shotgun.
 The process of selecting the project, entity and task to bind the version to is assisted by RVGun,
 showing only shotgun contents the user is assigned to.
+
+********************************************
+*    VERY IMPORTANT, VIDEO TUTORIALS AT:   *
+*  install: http://www.vimeo.com/14608472  *
+*    use: http://www.vimeo.com/14608142    *
+********************************************
 RVGun will:
 > Create the version instance in Shotgun
 > Label it properly, including incremental version number
@@ -42,3 +48,9 @@ RVGun.zip contains:
 
 
 Read the Installation_and_usage file for more help!
+
+********************************************
+*     REMEMBER, VIDEO TUTORIALS AT:        *
+*  install: http://www.vimeo.com/14608472  *
+*    use: http://www.vimeo.com/14608142    *
+********************************************
